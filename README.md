@@ -7,7 +7,7 @@ This project is a simple ant colony simulation built with Python and Pygame. Ant
 - Ants move randomly but are influenced by pheromone trails.
 - Food sources attract ants and are consumed upon contact.
 - Pheromones decay over time, simulating realistic behavior.
-- Modular structure with separate files for logic and rendering.
+- Ants can die if their energy gets to 0
 
 ## Screenshots
 
