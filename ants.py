@@ -8,7 +8,7 @@ class Ants():
 
     def __init__(self):
         self.posicao = [GRID_HEIGHT//2,GRID_WIDTH//2]
-        self.energias = 50
+        self.energias = 100
         self.ultimas_pos = [self.posicao[:]]
         self.encontrou_alimento = False
         self.cor = 'black'
