@@ -4,7 +4,7 @@ from constantes import *
 
 class Food():
     def __init__(self):
-        self.posicao = np.array([np.random.randint(GRID_WIDTH//2, GRID_WIDTH),np.random.randint(GRID_HEIGHT//2, GRID_HEIGHT)])
+        self.posicao = np.array([np.random.randint(0, GRID_WIDTH),np.random.randint(0, GRID_HEIGHT)])
         self.qnt = 20
         
     def draw_food(self,screen,mapa):
