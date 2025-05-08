@@ -80,7 +80,6 @@ class Ants():
     def alimento_encontrado(self,comidas):
         for comida in comidas:
             if (abs(self.posicao[0] - comida.posicao[0]) <= 1 and abs(self.posicao[1] - comida.posicao[1]) <= 1):
-                comida.qnt -=1 
                 self.energias += 1
                 self.encontrou_alimento = True 
                 self.cor = 'red'  
